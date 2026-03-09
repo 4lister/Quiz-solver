@@ -179,9 +179,3 @@ quiz-solver/
 | M3 | ⏳ Planned | Answer overlay window rendered on top of screen |
 | M4 | ⏳ Planned | System tray + configurable hotkeys |
 | M5 | ⏳ Planned | Settings UI + question/answer history panel |
-
----
-
-## License
-
-MIT
