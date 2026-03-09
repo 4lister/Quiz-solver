@@ -1,0 +1,948 @@
+2026-03-07 17:22:32.641 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 17:22:32.642 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 17:22:32.805 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:01:07.007 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:01:07.007 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:01:07.107 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:02:00.375 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:02:00.376 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:02:00.463 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:03:49.889 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:03:49.889 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:03:49.995 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:03:51.863 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2148
+2026-03-07 18:03:51.864 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:03:51.864 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Environment variable ANTHROPIC_API_KEY is not set.
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 49, in ask_claude_for_quiz
+    api_key = _get_api_key()
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 32, in _get_api_key
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Environment variable ANTHROPIC_API_KEY is not set.
+2026-03-07 18:05:14.598 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:05:14.598 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:05:14.675 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:05:16.393 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=1977
+2026-03-07 18:05:16.394 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:05:16.394 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Environment variable ANTHROPIC_API_KEY is not set.
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 49, in ask_claude_for_quiz
+    api_key = _get_api_key()
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 32, in _get_api_key
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Environment variable ANTHROPIC_API_KEY is not set.
+2026-03-07 18:06:01.823 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:06:01.824 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:06:01.910 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:06:03.679 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=1974
+2026-03-07 18:06:03.679 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:06:03.680 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Environment variable ANTHROPIC_API_KEY is not set.
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 49, in ask_claude_for_quiz
+    api_key = _get_api_key()
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 32, in _get_api_key
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Environment variable ANTHROPIC_API_KEY is not set.
+2026-03-07 18:06:09.550 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:06:09.550 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:06:09.638 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:06:11.502 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2017
+2026-03-07 18:06:11.503 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:06:11.503 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Environment variable ANTHROPIC_API_KEY is not set.
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 49, in ask_claude_for_quiz
+    api_key = _get_api_key()
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 32, in _get_api_key
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Environment variable ANTHROPIC_API_KEY is not set.
+2026-03-07 18:08:34.761 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:08:34.762 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:08:34.846 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:08:36.702 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2124
+2026-03-07 18:08:36.703 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:08:36.703 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Environment variable ANTHROPIC_API_KEY is not set.
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 49, in ask_claude_for_quiz
+    api_key = _get_api_key()
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 32, in _get_api_key
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Environment variable ANTHROPIC_API_KEY is not set.
+2026-03-07 18:09:07.162 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:09:07.162 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:09:07.240 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:09:09.089 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2057
+2026-03-07 18:09:09.089 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:09:09.090 | INFO     | llm.client:ask_claude_for_quiz:71 - Sending request to Claude model='claude-sonnet-4-20250514'
+2026-03-07 18:09:09.945 | ERROR    | llm.client:ask_claude_for_quiz:85 - Claude API returned non-200 status: 401 body={"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYocewwqGZxdxMPENqqYX"}
+2026-03-07 18:09:09.945 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Claude API error 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYocewwqGZxdxMPENqqYX"}
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 90, in ask_claude_for_quiz
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Claude API error 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYocewwqGZxdxMPENqqYX"}
+2026-03-07 18:15:06.414 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:15:06.414 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:15:06.510 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:15:08.451 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2187
+2026-03-07 18:15:08.452 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:15:08.452 | INFO     | llm.client:ask_claude_for_quiz:71 - Sending request to Claude model='claude-sonnet-4-20250514'
+2026-03-07 18:15:09.220 | ERROR    | llm.client:ask_claude_for_quiz:85 - Claude API returned non-200 status: 401 body={"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYod7Rxny7obQqSw3pSqp"}
+2026-03-07 18:15:09.220 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Claude API error 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYod7Rxny7obQqSw3pSqp"}
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 90, in ask_claude_for_quiz
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Claude API error 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CYod7Rxny7obQqSw3pSqp"}
+2026-03-07 18:15:35.293 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:15:35.294 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:15:35.395 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:15:37.240 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2044
+2026-03-07 18:15:37.241 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:15:37.241 | INFO     | llm.client:ask_claude_for_quiz:71 - Sending request to Claude model='claude-sonnet-4-20250514'
+2026-03-07 18:15:38.092 | ERROR    | llm.client:ask_claude_for_quiz:85 - Claude API returned non-200 status: 400 body={"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYod9Z4EfhnjkQzViih9u"}
+2026-03-07 18:15:38.092 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Claude API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYod9Z4EfhnjkQzViih9u"}
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 90, in ask_claude_for_quiz
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Claude API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYod9Z4EfhnjkQzViih9u"}
+2026-03-07 18:17:32.862 | INFO     | __main__:main:44 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:17:32.863 | INFO     | core.pipeline:run_capture_ocr_once:31 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:17:32.944 | INFO     | core.pipeline:run_capture_ocr_once:34 - Screen captured; starting OCR
+2026-03-07 18:17:34.839 | INFO     | core.pipeline:run_capture_ocr_once:37 - OCR finished; text length=2194
+2026-03-07 18:17:34.840 | INFO     | core.pipeline:run_full_pipeline_once:57 - Invoking Claude for answer
+2026-03-07 18:17:34.840 | INFO     | llm.client:ask_claude_for_quiz:71 - Sending request to Claude model='claude-sonnet-4-20250514'
+2026-03-07 18:17:35.685 | ERROR    | llm.client:ask_claude_for_quiz:85 - Claude API returned non-200 status: 400 body={"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYodJEASArJ3q54i4SVMx"}
+2026-03-07 18:17:35.686 | ERROR    | core.pipeline:run_full_pipeline_once:64 - Failed to get answer from Claude: Claude API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYodJEASArJ3q54i4SVMx"}
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 77, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 58, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 59, in run_full_pipeline_once
+    llm_answer = ask_claude_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 90, in ask_claude_for_quiz
+    raise ClaudeClientError(
+llm.client.ClaudeClientError: Claude API error 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CYodJEASArJ3q54i4SVMx"}
+2026-03-07 18:39:03.247 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:39:03.247 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:39:03.357 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:39:05.584 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=2039
+2026-03-07 18:39:05.585 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:39:05.585 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:39:24.143 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (141 chars)
+2026-03-07 18:40:06.534 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:40:06.534 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:40:06.642 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:40:08.550 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=2127
+2026-03-07 18:40:08.551 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:40:08.551 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:40:21.617 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (20 chars)
+2026-03-07 18:49:19.437 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:49:19.438 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:49:19.544 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:49:19.991 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=308
+2026-03-07 18:49:19.992 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:49:19.992 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:49:31.090 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (238 chars)
+2026-03-07 18:50:05.282 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:50:05.282 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:50:05.341 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:50:05.809 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=426
+2026-03-07 18:50:05.810 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:50:05.810 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:50:12.374 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (135 chars)
+2026-03-07 18:50:32.540 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:50:32.540 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:50:32.601 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:50:33.174 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=630
+2026-03-07 18:50:33.174 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:50:33.174 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:50:43.115 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (192 chars)
+2026-03-07 18:51:30.947 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:51:30.947 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:51:31.014 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:51:31.499 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=392
+2026-03-07 18:51:31.499 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:51:31.499 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:51:37.913 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (111 chars)
+2026-03-07 18:52:26.639 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:52:26.639 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:52:26.696 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:52:27.182 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=396
+2026-03-07 18:52:27.182 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:52:27.183 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:52:31.553 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (5 chars)
+2026-03-07 18:52:44.845 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:52:44.846 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:52:44.900 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:52:45.346 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=374
+2026-03-07 18:52:45.346 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:52:45.346 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:52:53.503 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (218 chars)
+2026-03-07 18:53:27.841 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:53:27.842 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:53:27.900 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:53:28.357 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=365
+2026-03-07 18:53:28.357 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:53:28.357 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:53:36.637 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (276 chars)
+2026-03-07 18:54:02.938 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:54:02.939 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:54:03.003 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:54:03.474 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=381
+2026-03-07 18:54:03.475 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:54:03.475 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:54:10.137 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (170 chars)
+2026-03-07 18:54:21.170 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:54:21.171 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:54:21.233 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:54:21.697 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=375
+2026-03-07 18:54:21.697 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:54:21.697 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:54:27.604 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (101 chars)
+2026-03-07 18:54:48.056 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 18:54:48.056 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 18:54:48.116 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 18:54:48.615 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=430
+2026-03-07 18:54:48.616 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 18:54:48.616 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 18:54:55.599 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (142 chars)
+2026-03-07 19:58:38.705 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 19:58:38.705 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 19:58:38.809 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 19:58:39.252 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=400
+2026-03-07 19:58:39.253 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 19:58:39.253 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 19:58:49.258 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (86 chars)
+2026-03-07 19:59:55.232 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 19:59:55.232 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 19:59:55.301 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 19:59:55.720 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=361
+2026-03-07 19:59:55.721 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 19:59:55.721 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:00:01.639 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (146 chars)
+2026-03-07 20:00:40.749 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:00:40.749 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:00:40.822 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:00:41.244 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=358
+2026-03-07 20:00:41.245 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:00:41.245 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:00:48.681 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (234 chars)
+2026-03-07 20:01:57.273 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:01:57.274 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:01:57.332 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:01:57.733 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=283
+2026-03-07 20:01:57.734 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:01:57.734 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:02:03.870 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (189 chars)
+2026-03-07 20:02:20.940 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:02:20.940 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:02:20.997 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:02:21.478 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=485
+2026-03-07 20:02:21.479 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:02:21.479 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:02:28.479 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (162 chars)
+2026-03-07 20:02:38.757 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:02:38.757 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:02:38.814 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:02:39.291 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=485
+2026-03-07 20:02:39.291 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:02:39.292 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:02:42.055 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (55 chars)
+2026-03-07 20:03:11.056 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:03:11.056 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:03:11.116 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:03:11.339 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=80
+2026-03-07 20:03:11.339 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:03:11.339 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:03:19.970 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (397 chars)
+2026-03-07 20:03:58.011 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:03:58.011 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:03:58.074 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:03:58.469 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=301
+2026-03-07 20:03:58.469 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:03:58.469 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:04:02.746 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (9 chars)
+2026-03-07 20:04:14.708 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:04:14.708 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:04:14.763 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:04:15.153 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=297
+2026-03-07 20:04:15.154 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:04:15.154 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:04:20.428 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (58 chars)
+2026-03-07 20:04:50.323 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:04:50.324 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:04:50.393 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:04:50.783 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=250
+2026-03-07 20:04:50.783 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:04:50.783 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:04:56.390 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (126 chars)
+2026-03-07 20:05:24.623 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:05:24.624 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:05:24.734 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:05:26.256 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1621
+2026-03-07 20:05:26.257 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:05:26.257 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:05:40.679 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (120 chars)
+2026-03-07 20:06:09.805 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:06:09.806 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:06:09.885 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:06:11.414 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1690
+2026-03-07 20:06:11.414 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:06:11.415 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:06:27.103 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (191 chars)
+2026-03-07 20:07:04.205 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:07:04.205 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:07:04.289 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:07:05.822 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1712
+2026-03-07 20:07:05.823 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:07:05.823 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:07:19.007 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (2 chars)
+2026-03-07 20:07:51.921 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:07:51.922 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:07:52.004 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:07:53.515 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1661
+2026-03-07 20:07:53.516 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:07:53.516 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:08:08.504 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (140 chars)
+2026-03-07 20:08:16.270 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:08:16.271 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:08:16.353 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:08:17.880 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1660
+2026-03-07 20:08:17.881 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:08:17.881 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:08:23.580 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (216 chars)
+2026-03-07 20:08:59.227 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:08:59.227 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:08:59.310 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:09:00.569 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1215
+2026-03-07 20:09:00.569 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:09:00.570 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:09:12.845 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (123 chars)
+2026-03-07 20:09:29.714 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:09:29.714 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:09:29.799 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:09:31.061 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1215
+2026-03-07 20:09:31.062 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:09:31.062 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:09:30.608 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (99 chars)
+2026-03-07 20:10:11.277 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:10:11.277 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:10:11.335 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:10:11.763 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=344
+2026-03-07 20:10:11.763 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:10:11.763 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:10:20.794 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (235 chars)
+2026-03-07 20:10:54.473 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:10:54.474 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:10:54.536 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:10:55.010 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=291
+2026-03-07 20:10:55.010 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:10:55.011 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:11:01.226 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (156 chars)
+2026-03-07 20:11:17.021 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:11:17.022 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:11:17.076 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:11:17.504 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=348
+2026-03-07 20:11:17.505 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:11:17.505 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:11:23.399 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (171 chars)
+2026-03-07 20:11:41.701 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:11:41.701 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:11:41.757 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:11:42.184 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=323
+2026-03-07 20:11:42.185 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:11:42.185 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:11:49.208 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (163 chars)
+2026-03-07 20:12:15.473 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:12:15.474 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:12:15.537 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:12:15.964 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=323
+2026-03-07 20:12:15.965 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:12:15.965 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:12:19.984 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (188 chars)
+2026-03-07 20:12:27.421 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:12:27.421 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:12:27.477 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:12:27.903 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=323
+2026-03-07 20:12:27.904 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:12:27.904 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:12:31.984 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (108 chars)
+2026-03-07 20:51:11.346 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:51:11.347 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:51:11.412 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:51:11.856 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=405
+2026-03-07 20:51:11.857 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:51:11.857 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:51:24.128 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (196 chars)
+2026-03-07 20:51:49.848 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 20:51:49.848 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 20:51:49.942 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 20:51:51.217 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1203
+2026-03-07 20:51:51.217 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 20:51:51.218 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 20:52:00.195 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (87 chars)
+2026-03-07 21:01:47.562 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:01:47.562 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:01:47.657 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:01:48.934 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1244
+2026-03-07 21:01:48.934 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:01:48.935 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:02:06.456 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (122 chars)
+2026-03-07 21:02:28.792 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:02:28.793 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:02:28.875 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:02:30.126 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1257
+2026-03-07 21:02:30.127 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:02:30.127 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:02:38.454 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (5 chars)
+2026-03-07 21:02:46.258 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:02:46.259 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:02:46.339 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:02:47.559 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1257
+2026-03-07 21:02:47.559 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:02:47.560 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:02:49.551 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (27 chars)
+2026-03-07 21:03:13.193 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:03:13.193 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:03:13.270 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:03:14.497 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1220
+2026-03-07 21:03:14.497 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:03:14.498 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:03:22.319 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (49 chars)
+2026-03-07 21:03:49.567 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:03:49.568 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:03:49.646 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:03:50.812 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1104
+2026-03-07 21:03:50.812 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:03:50.813 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:03:59.815 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (98 chars)
+2026-03-07 21:04:15.679 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:04:15.680 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:04:15.757 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:04:16.922 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1083
+2026-03-07 21:04:16.922 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:04:16.922 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:04:26.239 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (128 chars)
+2026-03-07 21:04:45.147 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:04:45.147 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:04:45.229 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:04:46.501 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1357
+2026-03-07 21:04:46.501 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:04:46.501 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:04:53.969 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (41 chars)
+2026-03-07 21:05:15.140 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:05:15.140 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:05:15.223 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:05:16.491 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1371
+2026-03-07 21:05:16.492 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:05:16.492 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:05:26.072 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (55 chars)
+2026-03-07 21:05:46.909 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:05:46.909 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:05:46.988 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:05:48.236 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1371
+2026-03-07 21:05:48.236 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:05:48.236 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:05:52.560 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (135 chars)
+2026-03-07 21:06:09.831 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:06:09.831 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:06:09.912 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:06:11.169 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1367
+2026-03-07 21:06:11.169 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:06:11.169 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:06:13.621 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (2 chars)
+2026-03-07 21:06:19.437 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:06:19.437 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:06:19.517 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:06:20.769 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1367
+2026-03-07 21:06:20.770 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:06:20.770 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:06:23.728 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (95 chars)
+2026-03-07 21:06:55.535 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:06:55.536 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:06:55.612 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:06:56.829 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1168
+2026-03-07 21:06:56.830 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:06:56.830 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:07:09.912 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (202 chars)
+2026-03-07 21:07:18.478 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:07:18.478 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:07:18.551 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:07:19.766 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1174
+2026-03-07 21:07:19.766 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:07:19.766 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:07:25.214 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (189 chars)
+2026-03-07 21:07:30.875 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:07:30.875 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:07:30.954 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:07:32.118 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1146
+2026-03-07 21:07:32.118 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:07:32.118 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:07:40.818 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (92 chars)
+2026-03-07 21:08:45.694 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:08:45.695 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:08:45.789 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:08:46.957 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1148
+2026-03-07 21:08:46.958 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:08:46.958 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:08:55.232 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (39 chars)
+2026-03-07 21:09:17.947 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:09:17.947 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:09:18.026 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:09:19.184 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1149
+2026-03-07 21:09:19.185 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:09:19.185 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='llama3.2'
+2026-03-07 21:09:23.105 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (99 chars)
+2026-03-07 21:23:20.909 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:23:20.909 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:23:21.016 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:23:22.306 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1174
+2026-03-07 21:23:22.307 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:23:22.307 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:23:53.753 | ERROR    | llm.client:ask_ollama_for_quiz:149 - HTTP error while talking to Ollama: timed out
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 87, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 68, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+  File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 72, in run_full_pipeline_once
+    llm_answer = ask_ollama_for_quiz(
+> File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 143, in ask_ollama_for_quiz
+    response = httpx.post(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+2026-03-07 21:23:53.871 | ERROR    | core.pipeline:run_full_pipeline_once:82 - Failed to get answer from Claude: HTTP error: timed out
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 143, in ask_ollama_for_quiz
+    response = httpx.post(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 87, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 68, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 72, in run_full_pipeline_once
+    llm_answer = ask_ollama_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 150, in ask_ollama_for_quiz
+    raise OllamaClientError(f"HTTP error: {exc}") from exc
+llm.client.OllamaClientError: HTTP error: timed out
+2026-03-07 21:24:55.598 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:24:55.598 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:24:55.738 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:24:57.195 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=1675
+2026-03-07 21:24:57.195 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:24:57.196 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:25:28.579 | ERROR    | llm.client:ask_ollama_for_quiz:149 - HTTP error while talking to Ollama: timed out
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 87, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 68, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+  File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 72, in run_full_pipeline_once
+    llm_answer = ask_ollama_for_quiz(
+> File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 143, in ask_ollama_for_quiz
+    response = httpx.post(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+2026-03-07 21:25:28.594 | ERROR    | core.pipeline:run_full_pipeline_once:82 - Failed to get answer from Claude: HTTP error: timed out
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 143, in ask_ollama_for_quiz
+    response = httpx.post(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Alex\Desktop\quiz-solver\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 87, in <module>
+    main()
+  File "C:\Users\Alex\Desktop\quiz-solver\main.py", line 68, in main
+    ocr_text, llm_answer = run_full_pipeline_once(
+> File "C:\Users\Alex\Desktop\quiz-solver\core\pipeline.py", line 72, in run_full_pipeline_once
+    llm_answer = ask_ollama_for_quiz(
+  File "C:\Users\Alex\Desktop\quiz-solver\llm\client.py", line 150, in ask_ollama_for_quiz
+    raise OllamaClientError(f"HTTP error: {exc}") from exc
+llm.client.OllamaClientError: HTTP error: timed out
+2026-03-07 21:26:04.400 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:26:04.400 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:26:04.463 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:26:04.890 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=354
+2026-03-07 21:26:04.891 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:26:04.891 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:26:25.363 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (416 chars)
+2026-03-07 21:27:05.858 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:27:05.858 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:27:05.950 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:27:06.322 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=248
+2026-03-07 21:27:06.322 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:27:06.322 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:27:25.897 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (431 chars)
+2026-03-07 21:33:39.398 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:33:39.399 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:33:39.472 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:33:39.741 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=59
+2026-03-07 21:33:39.741 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:33:39.741 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:34:08.005 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (458 chars)
+2026-03-07 21:35:15.399 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:35:15.400 | INFO     | core.pipeline:run_capture_ocr_once:38 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:35:15.499 | INFO     | core.pipeline:run_capture_ocr_once:41 - Screen captured; starting OCR
+2026-03-07 21:35:15.917 | INFO     | core.pipeline:run_capture_ocr_once:44 - OCR finished; text length=281
+2026-03-07 21:35:15.917 | INFO     | core.pipeline:run_full_pipeline_once:64 - Invoking Claude for answer
+2026-03-07 21:35:15.917 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:35:35.985 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (366 chars)
+2026-03-07 21:41:34.517 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:41:34.517 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:41:34.614 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:41:34.639 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214134.png
+2026-03-07 21:41:35.122 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=422
+2026-03-07 21:41:35.122 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:41:35.122 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:42:00.026 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (147 chars)
+2026-03-07 21:43:00.378 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:43:00.379 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:43:00.452 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:43:00.474 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214300.png
+2026-03-07 21:43:00.910 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=308
+2026-03-07 21:43:00.910 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:43:00.910 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:43:17.003 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (253 chars)
+2026-03-07 21:43:54.476 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:43:54.476 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:43:54.550 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:43:54.602 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214354.png
+2026-03-07 21:43:54.809 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=31
+2026-03-07 21:43:54.809 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:43:54.810 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:44:13.705 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (427 chars)
+2026-03-07 21:44:46.145 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:44:46.146 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:44:46.224 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:44:46.267 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214446.png
+2026-03-07 21:44:46.528 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=78
+2026-03-07 21:44:46.528 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:44:46.528 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:44:59.953 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (232 chars)
+2026-03-07 21:45:55.962 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:45:55.962 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:45:56.028 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:45:56.044 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214556.png
+2026-03-07 21:45:56.348 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=220
+2026-03-07 21:45:56.349 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:45:56.349 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:46:14.910 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (373 chars)
+2026-03-07 21:46:40.924 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:46:40.925 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:46:40.980 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:46:40.994 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214640.png
+2026-03-07 21:46:41.186 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=77
+2026-03-07 21:46:41.186 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:46:41.187 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:46:49.329 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (146 chars)
+2026-03-07 21:47:07.405 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:47:07.405 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:47:07.461 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:47:07.476 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214707.png
+2026-03-07 21:47:07.787 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=157
+2026-03-07 21:47:07.787 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:47:07.787 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:47:24.772 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (357 chars)
+2026-03-07 21:47:35.708 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:47:35.708 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:47:35.780 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:47:35.797 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214735.png
+2026-03-07 21:47:36.106 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=161
+2026-03-07 21:47:36.106 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:47:36.106 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:47:52.362 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (318 chars)
+2026-03-07 21:48:13.775 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:48:13.775 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:48:13.834 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:48:13.849 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214813.png
+2026-03-07 21:48:14.069 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=84
+2026-03-07 21:48:14.069 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:48:14.070 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:48:23.777 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (157 chars)
+2026-03-07 21:49:38.145 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:49:38.146 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:49:38.241 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:49:38.256 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_214938.png
+2026-03-07 21:49:38.464 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=76
+2026-03-07 21:49:38.464 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:49:38.464 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:49:48.125 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (164 chars)
+2026-03-07 21:50:11.794 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:50:11.794 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:50:11.852 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:50:11.868 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_215011.png
+2026-03-07 21:50:12.077 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=88
+2026-03-07 21:50:12.077 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:50:12.077 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:50:29.051 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (303 chars)
+2026-03-07 21:51:40.142 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:51:40.143 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:51:40.228 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:51:40.243 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_215140.png
+2026-03-07 21:51:40.481 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=158
+2026-03-07 21:51:40.481 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:51:40.482 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:51:51.103 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (117 chars)
+2026-03-07 21:52:26.904 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:52:26.904 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:52:26.957 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:52:26.972 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_215226.png
+2026-03-07 21:52:27.221 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=157
+2026-03-07 21:52:27.222 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:52:27.222 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:52:35.479 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (66 chars)
+2026-03-07 21:54:02.841 | INFO     | __main__:main:50 - Real-Time Quiz Solver (M1) starting
+2026-03-07 21:54:02.841 | INFO     | core.pipeline:run_capture_ocr_once:41 - Starting capture → OCR pipeline (single-shot)
+2026-03-07 21:54:02.928 | INFO     | core.pipeline:run_capture_ocr_once:44 - Screen captured; starting OCR
+2026-03-07 21:54:02.943 | INFO     | core.pipeline:run_capture_ocr_once:54 - Saved screenshot to C:\Users\Alex\Desktop\quiz-solver\captures\capture_20260307_215402.png
+2026-03-07 21:54:03.169 | INFO     | core.pipeline:run_capture_ocr_once:57 - OCR finished; text length=112
+2026-03-07 21:54:03.169 | INFO     | core.pipeline:run_full_pipeline_once:77 - Invoking Claude for answer
+2026-03-07 21:54:03.170 | INFO     | llm.client:ask_ollama_for_quiz:140 - Sending request to Ollama model='qwen2.5:7b'
+2026-03-07 21:54:14.183 | INFO     | llm.client:ask_ollama_for_quiz:165 - Received answer from Ollama (109 chars)
