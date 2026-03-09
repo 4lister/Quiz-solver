@@ -1,4 +1,4 @@
-# 🧠 Real-Time Quiz Solver
+# Real-Time Quiz Solver
 
 A Python tool that solves quizzes in real time: captures your screen, extracts text via OCR, and sends the question to an LLM (Claude / OpenAI / Ollama) to get an answer.
 
@@ -21,11 +21,11 @@ A Python tool that solves quizzes in real time: captures your screen, extracts t
 
 ## Features
 
-- 📸 **Screen capture** — full screen or selected region (ROI)
-- 🔍 **OCR** — image pre-processing + text recognition via Tesseract or EasyOCR
-- 🤖 **LLM integration** — supports Claude (Anthropic), OpenAI, and local models via Ollama
-- 📋 **Quiz parsing** — automatically extracts the question and answer options from raw OCR text
-- 📝 **Logging** — structured logs via `loguru`
+- **Screen capture** — full screen or selected region (ROI)
+- **OCR** — image pre-processing + text recognition via Tesseract or EasyOCR
+- **LLM integration** — supports Claude (Anthropic), OpenAI, and local models via Ollama
+- **Quiz parsing** — automatically extracts the question and answer options from raw OCR text
+- **Logging** — structured logs via `loguru`
 
 ---
 
@@ -33,7 +33,7 @@ A Python tool that solves quizzes in real time: captures your screen, extracts t
 
 ```
 Screenshot → Pre-processing → OCR → Parsing → LLM → Answer
-   (mss)       (Pillow/cv2)  (Tess)  (parser)  (API)
+   (mss)      (Pillow/cv2)  (Tess)  (parser)  (API)
 ```
 
 The pipeline is orchestrated by `core/pipeline.py`.
